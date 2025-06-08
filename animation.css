@@ -1,0 +1,11 @@
+.flower__Leafs::after{
+    content: "Flower";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%,-100%);
+    width: 8vmin;
+    height: 8vmin;
+    background-color: #6bf0ff;
+    filter: blur(10vmin);
+}
